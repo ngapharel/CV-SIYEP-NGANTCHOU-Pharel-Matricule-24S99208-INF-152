@@ -13,34 +13,34 @@ body {
 
 .container {
   display: flex;
-  max-width: 1200px;
-  margin: 30px auto;
+  max-width: 1200;
+  margin: 30 auto;
   background-color: #fff;
-  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  box-shadow: 0 0 15 (0,0,0,0.1);
 }
 
 .sidebar {
-  width: 30%;
+  width: 30;
   background-color: #fff6f2;
-  padding: 20px;
-  border-right: 2px solid #f0f0f0;
+  padding: 20;
+  border-right: 2 solid #f0f0f0;
 }
 
 .photo {
-  width: 30%;
-  border-radius: 5px;
-  margin-bottom: 20px;
+  width: 30;
+  border-radius: 5;
+  margin-bottom: 20;
 }
 
 .sidebar .section {
-  margin-bottom: 30px;
+  margin-bottom: 30;
 }
 
 .sidebar h2 {
   color: #c7511f;
-  font-size: 18px;
-  margin-bottom: 10px;
-  border-bottom: 1px solid #ddd;
+  font-size: 18;
+  margin-bottom: 10;
+  border-bottom: 1 solid #ddd;
 }
 
 .sidebar ul {
@@ -49,39 +49,39 @@ body {
 }
 
 .main {
-  width: 70%;
-  padding: 30px;
+  width: 70;
+  padding: 30;
 }
 
 header h1 {
-  font-size: 36px;
+  font-size: 36;
   color: #c7511f;
 }
 
 header h2 {
-  font-size: 20px;
+  font-size: 20;
   color: #333;
-  margin-bottom: 20px;
+  margin-bottom: 20;
 }
 
 section {
-  margin-bottom: 30px;
+  margin-bottom: 30;
 }
 
 section h3 {
   color: #c7511f;
-  margin-bottom: 10px;
-  border-bottom: 1px solid #ccc;
-  font-size: 20px;
+  margin-bottom: 10;
+  border-bottom: 1 solid #ccc;
+  font-size: 20;
 }
 
 .experience {
-  margin-bottom: 20px;
+  margin-bottom: 20;
 }
 
 .experience span {
   float: right;
-  font-size: 14px;
+  font-size: 14;
   color: #888;
 }
 
@@ -91,5 +91,5 @@ section h3 {
 }
 
 .grid div {
-  width: 48%;
+  width: 48;
 }
