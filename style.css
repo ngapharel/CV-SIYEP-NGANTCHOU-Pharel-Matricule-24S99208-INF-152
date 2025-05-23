@@ -29,8 +29,8 @@ body {
 .photo {
   width: 150px;
   height: 150px;
-  border-radius: 5px;
-  margin-bottom: 20px;
+  border-radius: 50px;
+  margin-bottom: 40px;
 }
 
 .sidebar .section {
