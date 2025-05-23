@@ -27,8 +27,8 @@ body {
 }
 
 .photo {
-  width: 150px;
-  height: 150px;
+  width: 20%;
+  height: auto;
   border-radius: 50px;
   margin-bottom: 40px;
 }
