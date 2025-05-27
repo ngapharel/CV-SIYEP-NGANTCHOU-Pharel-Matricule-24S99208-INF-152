@@ -1,54 +1,96 @@
-body {
-  font-family: Arial, sans-serif;
+* {
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  box-sizing: border-box;
 }
 
-.cv-container {
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
   display: flex;
-  padding: 20px;
+  max-width: 1200px;
+  margin: 30px auto;
   background-color: #fff;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
 }
 
-.left-column {
+.sidebar {
   width: 30%;
+  background-color: #fff6f2;
   padding: 20px;
-  background-color: #fcf1eb;
+  border-right: 2px solid #f0f0f0;
 }
 
-.profile-pic {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  margin-bottom: 15px;
-}
-
-.right-column {
+.photo {
   width: 70%;
-  padding: 20px;
+  Height: auto;
+  border-radius: 5px;
+  margin-bottom: 20px;
 }
 
-.skills-languages {
+.sidebar .section {
+  margin-bottom: 30px;
+}
+
+.sidebar h2 {
+  color: #c7511f;
+  font-size: 18px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.main {
+  width: 70%;
+  padding: 30px;
+}
+
+header h1 {
+  font-size: 36px;
+  color: #c7511f;
+}
+
+header h2 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+section h3 {
+  color: #c7511f;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  font-size: 20px;
+}
+
+.experience {
+  margin-bottom: 20px;
+}
+
+.experience span {
+  float: right;
+  font-size: 14px;
+  color: #888;
+}
+
+.grid {
   display: flex;
   justify-content: space-between;
 }
 
-.skills-languages > div {
+.grid div {
   width: 48%;
-}
-
-.main-content {
-  margin-top: 30px;
-}
-
-h2 {
-  color: #c0481b;
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 5px;
-  margin-top: 20px;
-}
-
-ul {
-  padding-left: 20px;
 }
