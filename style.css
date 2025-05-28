@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: 30px auto;
+  background-color: #fff;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.sidebar {
+  width: 30%;
+  background-color: #fff6f2;
+  padding: 20px;
+  border-right: 2px solid #f0f0f0;
+}
+
+.photo {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.sidebar .section {
+  margin-bottom: 30px;
+}
+
+.sidebar h2 {
+  color: #c7511f;
+  font-size: 18px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.main {
+  width: 70%;
+  padding: 30px;
+}
+
+header h1 {
+  font-size: 36px;
+  color: #c7511f;
+}
+
+header h2 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+section h3 {
+  color: #c7511f;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  font-size: 20px;
+}
+
+.experience {
+  margin-bottom: 20px;
+}
+
+.experience span {
+  float: right;
+  font-size: 14px;
+  color: #888;
+}
+
+.grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.grid div {
+  width: 48%;
+}
