@@ -55,8 +55,8 @@ body {
 }
 
 header h1 {
-  font-size: 36px;
-  color: #555; /* Gris foncé */
+  font-size: 36px;
+  color: #c7511f;
 }
 
 header h2 {
@@ -70,10 +70,10 @@ section {
 }
 
 section h3 {
-  color: #555; /* Gris foncé */
-  margin-bottom: 10px;
-  border-bottom: 1px solid #ccc;
-  font-size: 20px;
+  color: #c7511f;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  font-size: 20px;
 }
 
 .experience {
