@@ -19,9 +19,10 @@ body {
   box-shadow: 0 0 15px rgba(0,0,0,0.1);
 }
 
+
 .sidebar {
   width: 30%;
-  background-color: #fff6f2;
+  background-color: #e6ddff; /* Violet très clair */
   padding: 20px;
   border-right: 2px solid #f0f0f0;
 }
