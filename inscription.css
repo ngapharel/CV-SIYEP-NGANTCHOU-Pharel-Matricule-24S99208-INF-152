@@ -15,7 +15,7 @@ body {
     background-position: center;
     background-attachment: fixed;
 }
-.titre-formulaire {
+titre-formulaire {
     text-transform: uppercase; /* met en majuscules */
     font-weight: bold; /* gras */
     text-align: center; /* centré */
